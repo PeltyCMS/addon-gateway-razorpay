@@ -2,7 +2,7 @@
 
 Accept Razorpay payments in PeltyCMS checkout
 
-Official **payment gateway** for [PeltyCMS](https://github.com/MythicalLTD/PeltyCMS) — identifier `gateway-razorpay`.
+Official payment gateway for [PeltyCMS](https://github.com/MythicalLTD/PeltyCMS).
 
 ## Why this addon
 
@@ -18,25 +18,21 @@ Hosts who want customers to pay invoices without leaving Pelty checkout.
 
 ## How it works
 
-1. Install **Razorpay** from the [Mythical marketplace](https://market.mythicalsystems.org/marketplace/product/gateway-razorpay) (or Pelty Admin → Addons → Marketplace).
-2. Open Pelty Admin and enter your Razorpay credentials in the addon settings.
-3. Attach it to the products / forms / login flows you care about.
-4. New orders and sign-ins use Razorpay automatically.
+1. Install **Razorpay** from the [Mythical marketplace](https://market.mythicalsystems.org/marketplace/product/gateway-razorpay) inside Pelty Admin → Addons.
+2. Open Pelty Admin → Payments, add your Razorpay keys, and enable the gateway on the products you sell.
+3. Customers hit checkout / login / order flow as usual — Razorpay runs in the background.
 
 ## Requirements
 
-- A running PeltyCMS panel with WASM addons enabled
-- Valid Razorpay API / OAuth / panel credentials (depending on the integration)
-- Outbound HTTPS from the panel to Razorpay
+- PeltyCMS with WASM addons enabled
+- Working Razorpay credentials
+- Outbound HTTPS from your panel
 
 ## Get it
 
-[Razorpay on Mythical Marketplace](https://market.mythicalsystems.org/marketplace/product/gateway-razorpay)
-
-Free official build. Source for this package lives in this repository.
+**[Razorpay on Mythical Marketplace](https://market.mythicalsystems.org/marketplace/product/gateway-razorpay)**
 
 ## Support
 
-- Marketplace product page: https://market.mythicalsystems.org/marketplace/product/gateway-razorpay
-- PeltyCMS core: https://github.com/MythicalLTD/PeltyCMS
-- Issues for this addon: use this repo’s Issues tab
+Bugs and questions for this addon → Issues on this repo.  
+PeltyCMS core → https://github.com/MythicalLTD/PeltyCMS
